@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EliasUndKyAnh</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="journal">Journal</string>
+    <string name="calendar">Calendar</string>
+    <string name="clarity_hub_menu"><![CDATA[Clarity Hub/> </menu>]]></string>
+    <string name="clarity_hub">Clarity Hub</string>
+    <string name="ClarityHubFragment">Calendar</string>
+    <string name="calendarFragment">CalendarFragment\n</string>
+    <string name="Journal">Journal</string>
+</resources>

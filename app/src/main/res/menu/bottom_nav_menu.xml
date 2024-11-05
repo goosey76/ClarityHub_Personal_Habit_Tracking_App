@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Journal Tab -->
+    <item
+        android:id="@+id/nav_journal"
+        android:icon="@drawable/note_plus"
+        android:title="Journal" />
+
+    <!-- Kalender -->
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/calendar_blank"
+        android:title="Kalender" />
+
+    <!-- Clarity Hub -->
+    <item
+        android:id="@+id/nav_clarity_hub"
+        android:icon="@drawable/notebook"
+        android:title="Clarity Hub" />
+
+</menu>

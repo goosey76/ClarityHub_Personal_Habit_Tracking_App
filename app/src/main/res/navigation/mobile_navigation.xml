@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_calendar">
+
+    <!-- Journal Fragment -->
+    <fragment
+        android:id="@+id/nav_journal"
+        android:name="com.example.eliasundkyanh.JournalFragment"
+        android:label="@string/Journal"
+        tools:layout="@layout/fragment_journal"
+        />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.eliasundkyanh.CalendarFragment"
+        android:label="@string/Calendar"
+        tools:layout="@layout/fragment_calendar"
+        />
+
+    <fragment
+        android:id="@+id/nav_clarity_hub"
+        android:name="com.example.eliasundkyanh.ClarityHubFragment"
+        android:label="@string/Clarity Hub"
+        tools:layout="@layout/fragment_clarity_hub"
+        />
+
+</menu>
