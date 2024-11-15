@@ -4,24 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/nav_calendar">
 
-    <!-- Journal Fragment -->
     <fragment
         android:id="@+id/nav_todo"
         android:name="com.example.eliasundkyanh.ui.TodoFragment"
         android:label="To-Do"
         tools:layout="@layout/fragment_todo" />
 
-    <!-- Calendar Fragment -->
     <fragment
         android:id="@+id/nav_calendar"
         android:name="com.example.eliasundkyanh.ui.CalendarFragment"
         android:label="Calendar"
         tools:layout="@layout/fragment_calendar" />
 
-    <!-- Clarity Hub Fragment -->
     <fragment
         android:id="@+id/nav_journal"
         android:name="com.example.eliasundkyanh.ui.JournalFragment"
-        android:label="@string/Journal"
+        android:label="Clarity Hub"
         tools:layout="@layout/fragment_journal" />
 </navigation>

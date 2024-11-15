@@ -10,4 +10,6 @@
     <string name="ClarityHubFragment">Calendar</string>
     <string name="calendarFragment">CalendarFragment\n</string>
     <string name="Journal">Journal</string>
+    <string name="to_do">To-DO</string>
+    <string name="add_todo">Aufgabe hinzufügen</string>
 </resources>

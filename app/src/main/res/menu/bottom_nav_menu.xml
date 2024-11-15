@@ -3,9 +3,9 @@
 
     <!-- Journal Tab -->
     <item
-        android:id="@+id/nav_journal"
+        android:id="@+id/nav_todo"
         android:icon="@drawable/note_plus"
-        android:title="Journal" />
+        android:title="Todo" />
 
     <!-- Kalender -->
     <item
@@ -15,8 +15,8 @@
 
     <!-- Clarity Hub -->
     <item
-        android:id="@+id/nav_clarity_hub"
+        android:id="@+id/nav_journal"
         android:icon="@drawable/notebook"
-        android:title="Clarity Hub" />
+        android:title="Journal" />
 
 </menu>
