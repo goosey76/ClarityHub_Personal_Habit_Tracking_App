@@ -3,7 +3,7 @@
 
     <!-- Journal Tab -->
     <item
-        android:id="@+id/nav_todo"
+        android:id="@+id/todoFragment"
         android:icon="@drawable/note_plus"
         android:title="Todo" />
 

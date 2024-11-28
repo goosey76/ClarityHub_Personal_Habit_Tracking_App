@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="26dp">
+
+        <!-- Titel -->
+        <EditText
+            android:id="@+id/input_todo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/titel"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+
+        <!-- Wichtigkeit (Spinner) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wichtigkeit"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_importance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <!-- Kategorie (Spinner) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kategorie"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <!-- Wiederholung (Spinner) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wiederholung"
+            android:textStyle="bold" />
+
+        <!-- Beschreibung -->
+        <Spinner
+            android:id="@+id/spinner_repetition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/input_todo_description"
+            android:layout_width="350dp"
+            android:layout_height="71dp"
+            android:gravity="top"
+            android:hint="@string/beschreibung"
+            android:inputType="textMultiLine"
+            android:lines="3" />
+
+        <!-- Datumsauswahl -->
+        <Button
+            android:id="@+id/btn_date_picker"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:text="@string/datum_w_hlen" />
+
+        <!-- Uhrzeitauswahl -->
+        <Button
+            android:id="@+id/btn_time_picker"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zeit_w_hlen" />
+
+        <!-- Aufgabe hinzufügen -->
+        <Button
+            android:id="@+id/btn_add_todo"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:text="@string/aufgabe_hinzuf_gen"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

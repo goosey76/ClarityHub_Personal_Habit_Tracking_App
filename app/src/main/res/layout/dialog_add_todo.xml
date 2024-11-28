@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Titel -->
+        <EditText
+            android:id="@+id/input_todo_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titel"
+            android:inputType="text" />
+
+        <!-- Zeitraum -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btn_date_picker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Datum wählen" />
+
+            <Button
+                android:id="@+id/btn_time_picker"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Zeit wählen" />
+        </LinearLayout>
+
+        <!-- Wichtigkeit -->
+        <Spinner
+            android:id="@+id/spinner_priority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:entries="@array/priority_array" />
+
+        <!-- Kategorie -->
+        <Spinner
+            android:id="@+id/spinner_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:entries="@array/category_array" />
+
+        <!-- Wiederholungen -->
+        <EditText
+            android:id="@+id/input_repetitions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Wiederholungen (Anzahl)"
+            android:inputType="number" />
+
+        <!-- Beschreibung -->
+        <EditText
+            android:id="@+id/input_todo_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Beschreibung"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+</ScrollView>

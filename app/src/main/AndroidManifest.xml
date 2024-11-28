@@ -5,10 +5,12 @@
     <!-- NFC Permission -->
     <uses-permission android:name="android.permission.NFC" />
 
-    <!--Internet Permission, um es von der Datenbank(übers Internet) abzurufen -->
+    <!-- Internet Permission, um Daten von der Datenbank (übers Internet) abzurufen -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- Hier wird die Application-Klasse referenziert -->
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,13 +23,11 @@
         <activity
             android:name=".ui.MainActivity"
             android:exported="true"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:label="@string/Clarity_Hub">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
         </activity>
     </application>
-
 </manifest>

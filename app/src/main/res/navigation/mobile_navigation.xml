@@ -6,7 +6,7 @@
 
     <!-- Journal Fragment -->
     <fragment
-        android:id="@+id/nav_todo"
+        android:id="@+id/todoFragment"
         android:name="com.example.eliasundkyanh.ui.TodoFragment"
         android:label="To-Do"
         tools:layout="@layout/fragment_todo" />

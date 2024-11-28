@@ -12,4 +12,12 @@
     <string name="Journal">Journal</string>
     <string name="to_do">To-DO</string>
     <string name="add_todo">Aufgabe hinzufügen</string>
+    <string name="Clarity_Hub">Clarity Hub\n</string>
+    <string name="kategorie">Kategorie</string>
+    <string name="wichtigkeit">Wichtigkeit</string>
+    <string name="titel">Titel</string>
+    <string name="aufgabe_hinzuf_gen">Aufgabe hinzufügen</string>
+    <string name="zeit_w_hlen">Zeit wählen</string>
+    <string name="datum_w_hlen">Datum wählen</string>
+    <string name="beschreibung">Beschreibung</string>
 </resources>

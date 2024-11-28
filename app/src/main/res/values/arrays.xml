@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="priority_array">
+        <item>Wichtig &amp; Dringend</item>
+        <item>Wichtig &amp; Nicht Dringend</item>
+        <item>Nicht Wichtig &amp; Dringend</item>
+        <item>Nicht Wichtig &amp; Nicht Dringend</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>Arbeit</item>
+        <item>Studium</item>
+        <item>Haushalt</item>
+        <item>Freizeit</item>
+    </string-array>
+
+</resources>
+
+

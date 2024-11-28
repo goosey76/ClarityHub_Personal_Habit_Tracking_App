@@ -4,21 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/nav_calendar">
 
-    <fragment
-        android:id="@+id/nav_todo"
-        android:name="com.example.eliasundkyanh.ui.TodoFragment"
-        android:label="To-Do"
-        tools:layout="@layout/fragment_todo" />
-
+    <!-- Kalender-Fragment -->
     <fragment
         android:id="@+id/nav_calendar"
         android:name="com.example.eliasundkyanh.ui.CalendarFragment"
         android:label="Calendar"
         tools:layout="@layout/fragment_calendar" />
 
+    <!-- Journal-Fragment -->
     <fragment
         android:id="@+id/nav_journal"
         android:name="com.example.eliasundkyanh.ui.JournalFragment"
         android:label="Clarity Hub"
         tools:layout="@layout/fragment_journal" />
+
+    <!-- To-Do-Liste -->
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.example.eliasundkyanh.ui.TodoFragment"
+        android:label="To-Do"
+        tools:layout="@layout/fragment_todo">
+        <!-- Navigation zur AddTodoFragment -->
+        <action
+            android:id="@+id/action_todoFragment_to_addTodoFragment"
+            app:destination="@id/addTodoFragment" />
+    </fragment>
+
+    <!-- AddTodo-Fragment -->
+    <fragment
+        android:id="@+id/addTodoFragment"
+        android:name="com.example.eliasundkyanh.AddTodoFragment"
+        android:label="Aufgabe hinzufügen"
+        tools:layout="@layout/fragment_add_todo" />
+
 </navigation>
